@@ -1,0 +1,45 @@
+HTML adalah singkatan dari Hyper Text Markup Language berfungsi sebagai kerangka website
+
+<opening tag> html content </closing tag>
+
+html element
+<p style="color=red">my first paragraph </p>
+- opening dan closing tag
+- self-closing tag
+
+html attribute...
+
+global attribute
+class, id, dir, lang, style, title, dll...
+
+html comment
+<! -- ini komentar -- >
+
+HTML tag untuk menampilkan teks
+
+heading
+<h1>,<h2>,...,<h6>
+
+paragraph
+<p> </p> (menyesuaikan dengan lebar browser)
+<br /> break (baris baru)
+<hr /> tambah garis
+
+Link/anchor
+<a href=""></a>
+    atribut target="_blank" agar terbuka di tab baru
+
+Span
+<span></span>
+
+bold italic underline
+<b></b> <i></i> <u></u>
+
+List
+<ol type="A" (atribut tipe)>
+    <li> list </li>
+</ol>ordered list
+<ul>
+    <li> list </li>
+</ul>unordered list
+    atribut type="disc / square / circle"
