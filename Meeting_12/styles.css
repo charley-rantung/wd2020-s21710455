@@ -1,0 +1,68 @@
+/* p {
+    color: blue;
+}
+
+p.error {
+    color: red;
+}
+
+p.success.feedback {
+    color: green;
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+    border: 5px solid yellow;
+} */
+
+#top-container {
+    background-color: lightgray;
+}
+
+div p {
+    color: red;
+}
+
+a[href] {
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: yellow;
+}
+
+a[href*="google"] {
+    background-color: green;
+}
+
+a[href$=".ac.id"] {
+    background-color: purple;
+}
+
+/* 
+    Pseudo-class
+
+    selector:pseudo-class{
+        property: value;
+    }
+*/
+
+h1:hover {
+    color: white;
+    background-color: black;
+}
+
+/* 
+    Pseudo-element
+
+    selector::pseudo-element{
+        property: value;
+    }
+*/
+
+p::selection{
+    background-color: red;
+    color: yellow;
+}
+
+a::before{
+    content: "Link -"
+}
