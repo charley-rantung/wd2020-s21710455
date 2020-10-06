@@ -1,0 +1,51 @@
+img.img1 {
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 10px solid red;
+}
+
+img.img2 {
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 10px solid red;
+    margin-left:180px;
+}
+
+img.img3 {
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 10px solid red;
+    margin-left:360px;
+}
+
+/* PADDING (Sifatnya transparan)
+
+=> padding : 25px 50px 75px 200px
+top:25, right:50, bottom:75, left:100
+
+=> padding : 25px 50px 75px
+top:25, right and left: 50, bottom:75
+
+=> padding: 25px 50px
+top and bottom:25, left and right:50
+
+-> paddig :25
+
+all:25
+
+*/
+
+/* Border defaultnya 3px
+border-width
+border-style
+border-color
+ */
+
+ /* Margin
+ Mirip dengan padding, hanya berbeda posisi. jika padding di dalam border, margin diluar border
+
+ Margin top dan bottom colabs atau digabung tergantung mana yang paling besar
+ */
