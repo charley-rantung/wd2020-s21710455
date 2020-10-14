@@ -1,0 +1,25 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+/* Relatif: berdasarkan posisi awal. tidak merubah struktur yang lain. */
+    left: 20px;
+    top: 20px;
+}
+
+/* Absolute: berdasarkan parent terdekat yang bersifat relatif sebagai prioritas.
+ sifatnya mempengaruhi layout. seperti mengambang diatas box yang lain. */
+
+ /* Fix: tetap pada posisinya, tidak akan pindah */
+ /* Sticky: dapat discroll. ketika pada posisi tertentu maka sifatnya akan berubah menjadi fix. */
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
