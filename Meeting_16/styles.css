@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif;
+}
+
+/* Fallback: jika di client tidak mempunyai font yang dimaksud, client akan men generate font yang berikutnya yang dicantumkan */
+/* font-size
+perbedaan px dan em
+px statis sementara em dinamis. 1 em = 16 px = 100%
+rem dinamis dan tidak di inherit */
+/* Margin
+jika nilainya auto maka akan otomatis ditentukan nilai vertikal atau horizontalnya sama */
