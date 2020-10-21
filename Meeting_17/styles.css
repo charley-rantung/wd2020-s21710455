@@ -1,0 +1,29 @@
+.px {
+    display: inline-block;
+    font-size: 16px;
+    height: 320px;
+    width: 240px;
+    background-color: lightblue;
+}
+
+.em {
+    display: inline-block;
+    font-size: 1em;
+    height: 320px;
+    width: 240px;
+    background-color: lightblue;
+}
+
+.rem {
+    display: inline-block;
+    font-size: 1em;
+    height: 320px;
+    width: 240px;
+    background-color: lightblue;
+}
+
+.atasan {
+    width: 100%;
+    height: 10%;
+    background-color: lightcoral;
+}
